@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: blue;
+  color:white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.whole{
+  display:flex;
+  justify-content: space-around;
+  padding:40px;
+}
+.input,.proNote{
+  border:2px solid black;
+  color:white;
+  height:500px;
+  width:500px;
+  font-size: 20px;
+  overflow-wrap: break-word;
+}
+.proNote{
+  background-color: black;;
+}
+.input{
+  background-color: blue;
+  
+}
+img{
+  height:50px;
+  position:relative;
+  bottom:0;
+  width:50px;
 }
